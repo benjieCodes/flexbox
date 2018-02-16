@@ -250,49 +250,56 @@ input::-moz-focus-inner {
 /* This will set up our flexbox and have boxes become flex items*/
 
 .container {
+    item: 1;
     display: flex;
     /* align items can use flex start/end, center, stretch, and baseline! 
     stretch is the default
     */
-    align-items: baseline;
+    height: 100vh;
+    align-items: flex-start;
 }
 
 .box1 {
-    font-size: 150px;
+    font-size: 200px;
 }
 
 .box2 {
     font-size: 200px;
+    align-self: stretch;
 }
 
 .box3 {
-    font-size: 250px;
+    font-size: 200px;
 }
 
 .box4 {
-    font-size: 300px;
+    font-size: 200px;
+    align-self: baseline;
 }
 
 .box5 {
-    font-size: 350px;
+    font-size: 200px;
 }
 
 .box6 {
-    font-size: 300px;
+    font-size: 200px;
+    align-self: flex-end;
 }
 
 .box7 {
-    font-size: 250px;
+    font-size: 200px;
 }
 
 .box8 {
     font-size: 200px;
+    align-self: center;
 }
 
 .box9 {
-    font-size: 150px;
+    font-size: 200px;
 }
 
 .box10 {
-    font-size: 5px;
+    font-size: 200px;
+    align-self: flex-end;
 }
