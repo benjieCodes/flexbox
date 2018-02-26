@@ -58,6 +58,17 @@ a:hover {
     flex: 1;
 }
 
-@media all and (max-width:992px) {}
+@media all and (max-width:992px) {
+    .flex-nav ul {
+        flex-wrap: wrap;
+    }
+    .flex-nav li {
+        /* grow and shrink 1 and set to 50% width */
+        flex: 1 1 50%
+    }
+    .flex-nav .social {
+        flex: 1 1 25%;
+    }
+}
 
 @media all and (max-width:767px) {}
