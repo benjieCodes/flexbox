@@ -252,11 +252,13 @@ input::-moz-focus-inner {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    /* column changes main axis from left-right to top-bottom */
     border: 10px solid firebrick;
     height: 100vh;
 }
 
 .box {
+    flex-basis: 250px;
     flex-grow: 1;
 }
 
