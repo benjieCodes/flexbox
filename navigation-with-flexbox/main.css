@@ -71,4 +71,8 @@ a:hover {
     }
 }
 
-@media all and (max-width:767px) {}
+@media all and (max-width:767px) {
+    .flex-nav li {
+        flex-basis: 100%;
+    }
+}
